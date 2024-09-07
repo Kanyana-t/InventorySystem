@@ -12,7 +12,7 @@ namespace InventorySystem.Pages.Rangsit
         {
             try
             {
-                String connectionString = "Server=tcp:inventoryy.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=kanyanat;Password=Inventory15;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+                String connectionString = "Server=tcp:12345inventory54321.database.windows.net,1433;Initial Catalog=inventory;Persist Security Info=False;User ID=supat;Password=Spt12345;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
